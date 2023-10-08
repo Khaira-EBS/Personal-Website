@@ -166,6 +166,17 @@ footer a:hover {
 
 }
 
+.profile-image img {
+    height: 40px;
+    margin: 10px;
+    color: #333; /* Warna ikon standar */
+    transition: color 0.3s; /* Transisi perubahan warna saat hover */
+}
+
+.profile-image a:hover {
+    color: #007bff; /* Warna ikon saat hover */
+}
+
 /* FORM CONTACT */
 
 form {
