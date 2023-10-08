@@ -25,20 +25,36 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  li {
+li {
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: #111;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover {
+li a:hover {
     color: #0ba879;
-  }
+}
+
+footer {
+    background-color: #0ba879;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
