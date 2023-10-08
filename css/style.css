@@ -12,9 +12,9 @@ body {
 #navbar {
     overflow: hidden;
     display: flex;
-    justify-content: space-between; /* Untuk mengatur jarak antara logo dan menu */
-    align-items: center; /* Untuk mengatur vertikal logo dan menu */
-    padding: 20px 150px; /* Untuk memberikan ruang di sekitar elemen-elemen navbar */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px; 
 }
 
 #logo {
@@ -65,17 +65,24 @@ li a:hover {
     padding: 10px 0;
 }
 
-.about-text h2 {
-    color: #0ba879;
+.about-text img {
+    border-radius: 100%;
+    width: 140px;
 }
 
 #myport {
-    width: 100px;
+    width: 150px;
     padding: 10px 0;
     background-color: #353535;
     border: none;
     border-radius: 5px;
     color: white;
+    font-size: medium;
+}
+
+#myport:hover {
+    background-color: #111;
+    cursor: pointer;
 }
 
 .container img {
@@ -143,4 +150,29 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 
+}
+
+/* FORM CONTACT */
+
+form {
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; /* Memungkinkan pengguna mengubah tinggi textarea */
+}
+
+input:valid,
+textarea:valid {
+    border: 1px solid #0ba879;
 }

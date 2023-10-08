@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/logo.png" type="image/x-icon">
-    <title>Home | Khaira Isyara</title>
+    <title>Contact | Khaira Isyara</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
             <img src="img/logo-khaira.png" id="logo">
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Project</a></li>
                 <li><a href="design.html">Design</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <div class="container">
-        <img src="img/Khaira.png" alt="Foto Konten">
-        <div id="content-text">
-            <h2>Hello, I'm Khaira!<br> I'am a student at ESQ
-                Business School majoring in Computer Science. I
-                have an interest in programming, creativity, design graphic, video
-                editing, and typography. I like to learn new and challenging
-                things.</h2>
+        <div class="container-about">
+            <h2>Contact Me</h2>
+            <p>Fill this form for contacting me:</p>
+        
+            <form class="form-input">
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Type message here..." required></textarea>
+        
+                <a href="#"><button id="myport">Submit</button></a>
+            </form>
         </div>
     </div>
 
