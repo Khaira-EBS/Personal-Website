@@ -49,9 +49,8 @@ li a:hover {
 }
 
 .container {
-    display: flex;
     align-items: center;
-    padding: 20px 150px;
+    padding: 100px 250px;
     /*border: 1px solid #ddd;*/
 }
 
@@ -85,20 +84,35 @@ li a:hover {
     cursor: pointer;
 }
 
-.container img {
-    width: 400px; /* Lebar gambar */
-    height: auto; /* Mengikuti proporsi asli gambar */
-    margin-right: 50px; /* Jarak antara gambar dan teks */
+.container-content {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#home-btn {
+    color: #353535;
+}
+
+#home-btn:hover {
+    color: #0ba879;
+    text-decoration: underline;
 }
 
 #content-text {
     flex: 1;
-    color: #0ba879;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .tools-logo img {
     height: 50px;
     margin: 5px;
+}
+
+.tools-logo-home img {
+    height: 100px;
+    margin: 7px;
 }
 
 .container-card {
