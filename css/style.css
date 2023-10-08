@@ -68,6 +68,15 @@ li a:hover {
     color: #0ba879;
 }
 
+#myport {
+    width: 100px;
+    padding: 10px 0;
+    background-color: #0ba879;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
 .container img {
     width: 400px; /* Lebar gambar */
     height: auto; /* Mengikuti proporsi asli gambar */
