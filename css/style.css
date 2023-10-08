@@ -30,6 +30,10 @@ ul {
 li {
     float: left;
 }
+
+.active {
+    color: #0ba879;
+}
   
 li a {
     display: block;
@@ -48,6 +52,20 @@ li a:hover {
     align-items: center;
     padding: 20px 150px;
     /*border: 1px solid #ddd;*/
+}
+
+.container-about {
+    align-items: center;
+    padding: 50px 200px;
+    /*border: 1px solid #ddd;*/
+}
+
+.about-text {
+    padding: 10px 0;
+}
+
+.about-text h2 {
+    color: #0ba879;
 }
 
 .container img {
