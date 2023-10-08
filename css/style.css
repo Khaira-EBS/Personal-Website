@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between; /* Untuk mengatur jarak antara logo dan menu */
     align-items: center; /* Untuk mengatur vertikal logo dan menu */
-    padding: 20px 100px; /* Untuk memberikan ruang di sekitar elemen-elemen navbar */
+    padding: 20px 150px; /* Untuk memberikan ruang di sekitar elemen-elemen navbar */
 }
 
 #logo {
@@ -40,6 +40,24 @@ li a {
 }
   
 li a:hover {
+    color: #0ba879;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    /*border: 1px solid #ddd;*/
+}
+
+.container img {
+    width: 400px; /* Lebar gambar */
+    height: auto; /* Mengikuti proporsi asli gambar */
+    margin-right: 50px; /* Jarak antara gambar dan teks */
+}
+
+#content-text {
+    flex: 1;
     color: #0ba879;
 }
 
